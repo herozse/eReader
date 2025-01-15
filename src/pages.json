@@ -1,0 +1,113 @@
+{
+  "pages": [
+    {
+      "path": "pages/tabBar/home",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/tabBar/personal",
+      "style": {
+        "navigationBarTitleText": "个人页"
+      }
+    },
+    {
+      "path": "pages/tabBar/export",
+      "style": {
+        "navigationBarTitleText": "导入"
+      }
+    },
+    {
+      "path": "pages/tabBar/book",
+      "style": {
+        "navigationBarTitleText": "搜书"
+      }
+    },
+    {
+      "path": "pages/search/index",
+      "style": {
+        "navigationBarTitleText": "搜书"
+      }
+    },
+    {
+      "path": "pages/groupDetail/index",
+      "style": {
+        "navigationBarTitleText": "分组详情"
+      }
+    },
+    {
+      "path": "pages/bookDetail/index",
+      "style": {
+        "navigationBarTitleText": "书籍详情"
+      }
+    },
+    {
+      "path": "pages/catalogs/index",
+      "style": {
+        "navigationBarTitleText": "目录"
+      }
+    },
+    {
+      "path": "pages/reader/index",
+      "style": {
+        "navigationBarTitleText": "阅读页",
+        "disableSwipeBack": true
+      }
+    },
+    {
+      "path": "pages/blank/about",
+      "style": {
+        "navigationBarTitleText": "关于我们"
+      }
+    },
+    {
+      "path": "pages/blank/agreement",
+      "style": {
+        "navigationBarTitleText": "用户协议"
+      }
+    },
+    {
+      "path": "pages/blank/policy",
+      "style": {
+        "navigationBarTitleText": "隐私政策"
+      }
+    },
+    {
+      "path": "pages/blank/origin",
+      "style": {
+        "navigationBarTitleText": "书源管理"
+      }
+    },
+    {
+      "path": "pages/blank/history",
+      "style": {
+        "navigationBarTitleText": "浏览历史"
+      }
+    },
+    {
+      "path": "pages/blank/feedback",
+      "style": {
+        "navigationBarTitleText": "意见反馈"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FEF7F1",
+    "backgroundColor": "#FEF7F1",
+    "app-plus": {
+      "bounce": "none"
+    },
+    "navigationStyle": "custom"
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue",
+      "^g-(.*)": "@/components/global/g-$1.vue",
+      "^l-(.*)": "@/components/painter/components/l-$1/l-$1.vue"
+    }
+  }
+}
